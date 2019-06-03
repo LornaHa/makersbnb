@@ -5,13 +5,19 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
+      <a href="url">Login</a>
     <h1> <%= title %> </h1>
-    <p>Feel at home, away from home</p>
+      <p>Feel at home, away from home</p>
     <h2>Sign up to Makers BnB</h2>
     <form id="formAddUser" name="adduser" method="post" action="/adduser">
-      <input id="inputUserName" type="text" placeholder="email address" name="emailaddress" />
-      <input id="inputUserEmail" type="text" placeholder="password" name="password" />
-      <button id="btnSubmit" type="submit">Submit</button>
+      Email Address<br>
+      <input id="inputUserEmail" type="text" name="emailaddress" />
+      <br>Password<br>
+      <input id="inputUserPassword" type="text" name="password" />
+      <br>Password Confirmation<br>
+      <input id="inputUserPasswordCon" type="text" name="passwordcon" />
+      <br>
+      <button id="btnSubmit" type="submit">Sign up</button>
     </form>
   </body>
 </html>
