@@ -6,14 +6,14 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Makers BnB' });
 });
 
-/* GET Userlist page. */
+/* GET successful page. */
 router.get('/successful', function(req, res) {
     res.render('successful', { title: 'Sign Up Successful' });
 });
 
-/* GET New User page. */
-router.get('/newuser', function(req, res) {
-    res.render('newuser', { title: 'Add New User' });
+/* GET Login page. */
+router.get('/login', function(req, res) {
+    res.render('login', { title: 'Login' });
 });
 
 /* POST to Add User Service */

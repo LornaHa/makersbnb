@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Makers BnB</title>
+    <title>Login | Makers BnB</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-      <a window.location.href="/login.ejs">Login</a>
+      <a href="/Documents/lorna_code/makersbnb/nodetest1/views/login.ejs">Login</a>
     <h1> <%= title %> </h1>
-      <p>Feel at home, away from home</p>
-    <h2>Sign up to Makers BnB</h2>
+    <h2>Log in to Makers BnB</h2>
     <form id="formAddUser" name="adduser" method="post" action="/adduser">
       Email Address<br>
       <input id="inputUserEmail" type="text" name="emailaddress" />
       <br>Password<br>
       <input id="inputUserPassword" type="text" name="password" />
       <br>Password Confirmation<br>
-      <input id="inputUserPasswordCon" type="text" name="passwordcon" />
-      <br>
-      <button id="btnSubmit" type="submit">Sign up</button>
+      <button id="btnSubmit" type="submit">Log in</button>
     </form>
   </body>
 </html>
